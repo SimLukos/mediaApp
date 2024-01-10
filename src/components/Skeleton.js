@@ -23,7 +23,6 @@ export default function Skeleton({ times, className }) {
   const boxes = Array(times)
     .fill(0)
     .map((_, i) => {
-      console.log(_);
       return (
         <div key={i} className={outerClassNames}>
           <div className={innerClassNames}></div>

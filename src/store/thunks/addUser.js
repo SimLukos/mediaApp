@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { faker } from '@faker-js/faker';
 
-const adduser = createAsyncThunk('users/add', async () => {
+const addUser = createAsyncThunk('users/add', async () => {
   const response = await axios.post('http://localhost:3005/users', {
     name: faker.person.fullName(),
   });
@@ -10,4 +10,4 @@ const adduser = createAsyncThunk('users/add', async () => {
   return response.data;
 });
 
-export { adduser };
+export { addUser };
