@@ -1,5 +1,26 @@
 {
-  "users": [{ "id": 1, "name": "Simonas" }],
+  "users": [
+    {
+      "id": 1,
+      "name": "Simonas"
+    },
+    {
+      "name": "Cindy Gorczany",
+      "id": 2
+    },
+    {
+      "name": "Pete Ratke V",
+      "id": 3
+    },
+    {
+      "name": "Lee Langworth",
+      "id": 4
+    },
+    {
+      "name": "Ignacio Schowalter",
+      "id": 5
+    }
+  ],
   "albums": [],
   "photos": []
 }
