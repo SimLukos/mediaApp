@@ -5,14 +5,62 @@
       "name": "Simonas"
     },
     {
-      "name": "Lyle Klein MD",
+      "name": "Glenn Pfeffer",
+      "id": 5
+    }
+  ],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Intelligent Plastic Fish",
+      "id": 18
+    },
+    {
+      "userId": 5,
+      "title": "Bespoke Soft Keyboard",
+      "id": 20
+    },
+    {
+      "userId": 5,
+      "title": "Oriental Metal Shirt",
+      "id": 21
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 18,
+      "url": "https://loremflickr.com/640/480?lock=4489517910196224",
+      "id": 2
+    },
+    {
+      "albumId": 18,
+      "url": "https://loremflickr.com/640/480?lock=1119411014467584",
       "id": 3
     },
     {
-      "name": "Candice Becker",
-      "id": 4
+      "albumId": 20,
+      "url": "https://picsum.photos/seed/k7ntH2/640/480",
+      "id": 5
+    },
+    {
+      "albumId": 20,
+      "url": "https://picsum.photos/seed/rvAwEC4Pzf/640/480",
+      "id": 6
+    },
+    {
+      "albumId": 21,
+      "url": "https://loremflickr.com/640/480?lock=8985714117050368",
+      "id": 7
+    },
+    {
+      "albumId": 21,
+      "url": "https://picsum.photos/seed/g1XsNJ/640/480",
+      "id": 8
+    },
+    {
+      "albumId": 21,
+      "url": "https://picsum.photos/seed/Rj0f7l/640/480",
+      "id": 9
     }
-  ],
-  "albums": [],
-  "photos": []
+  ]
 }
